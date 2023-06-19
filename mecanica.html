@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Luis Santiago Vazquez Alvarado">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisica con Santi</title>
+    <link rel="stylesheet" href="./css/ramas.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" id="nav">
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="mecanica.html">Mecánica</a></li>
+                    <li><a href="electricidad.html">Electricidad</a></li>
+                    <li><a href="optica.html">Óptica</a></li>
+                    <li><a href="termodinamica.html">Termodinámica</a></li>
+                    <li><a href="preguntas.html">Preguntas fecuentes</a></li>
+                </ul>
+            </div>
+            <button class="menu-hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+        </nav>
+
+        <script>
+            window.addEventListener("scroll", function () {
+                var nav = document.querySelector("nav");
+                nav.classList.toggle("abajo", window.scrollY > 0);
+            })
+        </script>
+    </header>
+
+    <main>
+        <div class="banner" id="banner-mecanica">
+            <img src="https://concepto.de/wp-content/uploads/2018/09/energia-cinetica-1-e1538146882101.jpg" alt="">
+            <h1>MECÁNICA</h1>
+        </div>
+        <div class="introduccion">
+            <h2>La Mecánica</h2>
+            <p>La mecánica (en griego, Μηχανική y en latín, mēchanica) o arte de construir una máquina es la rama de la
+                física que estudia y analiza el movimiento y reposo de los cuerpos, y su evolución en el tiempo, bajo la
+                acción de fuerzas. Modernamente la mecánica incluye la evolución de sistemas físicos más generales que
+                los cuerpos másicos. En ese enfoque la mecánica estudia también las ecuaciones de evolución temporal de
+                sistemas físicos como los campos electromagnéticos o los sistemas cuánticos donde propiamente no es
+                correcto hablar de cuerpos físicos.</p>
+            <p>La mecánica es una ciencia perteneciente a la física, ya que los fenómenos que estudia son físicos, por
+                ello está relacionada con las matemáticas. Sin embargo, también puede relacionarse con la ingeniería, en
+                un modo menos riguroso. Ambos puntos de vista se justifican parcialmente ya que, si bien la mecánica es
+                la base para la mayoría de las ciencias de la ingeniería clásica, no tiene un carácter tan empírico como
+                estas y, en cambio, por su rigor y razonamiento deductivo, se parece más a la matemática.</p>
+            <p>Esta rama de la física tiene sus orígenes en la Antigua Grecia con los escritos de Aristóteles y
+                Arquímedes.​ Durante el período moderno temprano, científicos como Galileo, Kepler y Newton
+                sentaron las bases de lo que ahora se conoce como mecánica clásica. Es una rama de la física clásica que
+                se ocupa de partículas que están en reposo o que se mueven con velocidades significativamente menores
+                que la velocidad de la luz. También se puede definir como una rama de la ciencia que se ocupa del
+                movimiento y las fuerzas sobre cuerpos que no están en el reino cuántico. Hoy en día, el campo se conoce
+                menos en términos de teoría cuántica.</p>
+            <p><a href="https://es.wikipedia.org/wiki/Mec%C3%A1nica" target="_blank">Ver mas sobre Mecánica...</a></p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kFPwZU565bc" frameborder="0"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="quiz">
+            <h1>Quiz sobre Mecánica</h1>
+
+            <div class="question">
+                <h3>Pregunta 1:</h3>
+                <p>¿Cuál de las siguientes opciones describe mejor el concepto de fuerza?</p>
+                <div class="options">
+                    <input type="radio" name="q1" value="a"> a) La velocidad de un objeto<br>
+                    <input type="radio" name="q1" value="b"> b) La cantidad de masa de un objeto<br>
+                    <input type="radio" name="q1" value="c"> c) La resistencia de un objeto al movimiento<br>
+                    <input type="radio" name="q1" value="d"> d) La interacción que causa un cambio en el movimiento de un objeto<br>
+                </div>
+            </div>
+
+            <div class="question">
+                <h3>Pregunta 2:</h3>
+                <p>¿Cuál de las siguientes ecuaciones representa la ley de Newton más conocida?</p>
+                <div class="options">
+                    <input type="radio" name="q2" value="a"> a) F = m × a<br>
+                    <input type="radio" name="q2" value="b"> b) E = mc²<br>
+                    <input type="radio" name="q2" value="c"> c) P = m × v<br>
+                    <input type="radio" name="q2" value="d"> d) A = Δv / Δt<br>
+                </div>
+            </div>
+
+            <div class="question">
+                <h3>Pregunta 3:</h3>
+                <p>¿Qué ley establece que un objeto en reposo permanecerá en reposo y un objeto en movimiento continuará en movimiento a menos que una fuerza externa actúe sobre él?</p>
+                <div class="options">
+                    <input type="radio" name="q3" value="a"> a) Ley de la gravitación universal<br>
+                    <input type="radio" name="q3" value="b"> b) Ley de Ohm<br>
+                    <input type="radio" name="q3" value="c"> c) Ley de la conservación de la energía<br>
+                    <input type="radio" name="q3" value="d"> d) Primera ley de Newton (ley de inercia)<br>
+                </div>
+            </div>
+
+            <div class="question">
+                <h3>Pregunta 4:</h3>
+                <p>¿Cuál de las siguientes opciones describe mejor el concepto de energía cinética?</p>
+                <div class="options">
+                    <input type="radio" name="q4" value="a"> a) La energía almacenada en un objeto debido a su posición<br>
+                    <input type="radio" name="q4" value="b"> b) La energía asociada con el movimiento de un objeto<br>
+                    <input type="radio" name="q4" value="c"> c) La energía que se libera durante una reacción química<br>
+                    <input type="radio" name="q4" value="d"> d) La energía necesaria para cambiar la temperatura de un objeto<br>
+                </div>
+            </div>
+
+            <div class="question">
+                <h3>Pregunta 5:</h3>
+                <p>¿Cuál de las siguientes opciones describe mejor el concepto de trabajo en física?</p>
+                <div class="options">
+                    <input type="radio" name="q5" value="a"> a) La distancia recorrida por un objeto<br>
+                    <input type="radio" name="q5" value="b"> b) La fuerza aplicada sobre un objeto<br>
+                    <input type="radio" name="q5" value="c"> c) El cambio en la posición de un objeto<br>
+                    <input type="radio" name="q5" value="d"> d) La transferencia de energía a través de una fuerza aplicada sobre una distancia<br>
+                </div>
+            </div>
+
+            <div class="btn-submit">
+                <button onclick="checkAnswers()">Enviar respuestas</button>
+            </div>
+
+            <script>
+                // Función para verificar las respuestas
+                function checkAnswers() {
+                    var correctAnswers = 0;
+
+                    var q1Answer = document.querySelector('input[name="q1"]:checked').value;
+                    var q2Answer = document.querySelector('input[name="q2"]:checked').value;
+                    var q3Answer = document.querySelector('input[name="q3"]:checked').value;
+                    var q4Answer = document.querySelector('input[name="q4"]:checked').value;
+                    var q5Answer = document.querySelector('input[name="q5"]:checked').value;
+
+                    if (q1Answer === "d") {
+                        correctAnswers++;
+                    }
+
+                    if (q2Answer === "a") {
+                        correctAnswers++;
+                    }
+
+                    if (q3Answer === "d") {
+                        correctAnswers++;
+                    }
+
+                    if (q4Answer === "b") {
+                        correctAnswers++;
+                    }
+
+                    if (q5Answer === "d") {
+                        correctAnswers++;
+                    }
+
+                    // Mostrar resultados
+                    alert("Respuestas correctas: " + correctAnswers);
+                }
+            </script>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Sobre Nosotros</h4>
+                    <ul>
+                        <li><a href="index.html">Welcome to PhysicSanti</a></li>
+                        <li><a href="mecanica.html">Mecánica</a></li>
+                        <li><a href="electricidad.html">Electricidad</a></li>
+                        <li><a href="optica.html">Óptica</a></li>
+                        <li><a href="termodinamica.html">Termodinámica</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Acerca de</h4>
+                    <ul>
+                        <li><a href="#">Tus datos</a></li>
+                        <li><a href="#">Términos de servicio</a></li>
+                        <li><a href="#">Políticas de privacidad</a></li>
+                        <li><a href="#">Aviso legal</a></li>
+                        <li><a href="#">Uso de Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Cliente</h4>
+                    <ul>
+                        <li><a href="#">Iniciar Sesión</a></li>
+                        <li><a href="#">Registrarse</a></li>
+                        <li><a href="#">Atención a cliente</a></li>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Redes</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.google.com/" target="_blank"><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <img src="./img/Logo Physics.png" class="logo-footer">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--<div class="footer-bottom">
+        <div class="first-box">
+            <a href="#">©Copyright 2023 / Santy's Desing S.A. / - Publicidad: 944010751 / Todos los derechos
+                reservados</a>
+        </div>
+    </div>-->
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+</html>
